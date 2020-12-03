@@ -39,3 +39,9 @@ nav {
     background-color: #245a97;
     color: #fff;
 }
+
+#name::placeholder {
+    min-width: 10%;
+    height: 30px;
+    text-align: center;
+}
