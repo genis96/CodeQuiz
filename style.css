@@ -28,7 +28,8 @@ nav {
     padding: 3%;
 }
 
-.start-btn {
+.start-btn,
+.submit-btn {
     text-align: center;
     font-size: 20px;
     min-width: 8%;
