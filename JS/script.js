@@ -7,12 +7,29 @@ let multipleChoice = document.querySelector('#multiple-choice');
 let nameStorage = document.querySelector('#name-storage');
 let finalScore = document.querySelector('.final-score');
 
+let currQuestion = 0;
+let score = 0;
+let timeLeft = 80;
+
 function startGame() {
-    let indexPage = document.querySelector('#index-page') = indexPage.setAttribute('class', 'hide');
+    let indexPage = document.querySelector('#index-page');
+
+    timer.setInterval(tikTokClock, 1000);
+    time.textContent = timingQuestions;
+
+    questionGrabbing();
+
     console.log(indexPage);
 }
 
+function questionGrabbing() {
+
+}
+
+function highScoreTracker() {}
+
 startBtn.addEventListener('click', startGame);
+submitBtn.addEventListener('click', highScoreTracker);
 
 
 
