@@ -4,10 +4,21 @@
     box-sizing: border-box;
 }
 
-.score {
-    text-decoration: none !important;
-    cursor: pointer;  
-    color: inherit;
+nav {
+    margin: 1%;
+    padding: 3%;
+    font-size: 25px;
 }
 
+.score a {
+    float: left;
+    text-decoration: none !important;    
+    cursor: pointer;  
+    color: #245a97;
+}
 
+.time {
+    float: right;
+    color: #245a97;
+
+}
