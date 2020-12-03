@@ -8,11 +8,13 @@ let nameStorage = document.querySelector('#name-storage');
 let finalScore = document.querySelector('.final-score');
 
 let currQuestion = 0;
-let score = 0;
+score = 0;
 let timeLeft = 80;
 
 function startGame() {
     let indexPage = document.querySelector('#index-page');
+    indexPage.setAttribute('class', 'hide');
+    questions.removeAttribute('class');
 
     timer.setInterval(tikTokClock, 1000);
     time.textContent = timingQuestions;
