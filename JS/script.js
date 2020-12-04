@@ -31,7 +31,7 @@ function questionGrabbing() {
 function highScoreTracker() {}
 
 startBtn.addEventListener('click', startGame);
-submitBtn.addEventListener('click', highScoreTracker);
+// submitBtn.addEventListener('click', highScoreTracker);
 
 
 
